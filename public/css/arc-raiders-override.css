@@ -1,0 +1,349 @@
+/* ============================================
+   ARC RAIDERS THEME - OVERRIDE COMPLET
+   Écrase TOUT le reste
+   ============================================ */
+
+* {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+body {
+    background: linear-gradient(135deg, #0a0e14 0%, #0f1419 50%, #1a2332 100%) !important;
+    background-attachment: fixed !important;
+    color: #e5e7eb !important;
+    min-height: 100vh !important;
+}
+
+/* ============================================
+   BACKGROUNDS - Force TOUT en dark
+   ============================================ */
+
+.bg-white,
+[class*="bg-white"],
+div[style*="background: white"],
+div[style*="background-color: white"],
+div[style*="background:#fff"],
+div[style*="background-color:#fff"],
+div[style*="background-color: rgb(255, 255, 255)"] {
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.7) 0%, rgba(17, 24, 39, 0.85) 100%) !important;
+    border: 1px solid rgba(55, 65, 81, 0.3) !important;
+}
+
+.bg-gray-100 {
+    background: linear-gradient(135deg, #0a0e14 0%, #0f1419 50%, #1a2332 100%) !important;
+}
+
+.bg-gray-50 {
+    background: rgba(31, 41, 55, 0.3) !important;
+}
+
+/* ============================================
+   TEXTE - Force TOUT en clair
+   ============================================ */
+
+.text-gray-900,
+.text-gray-800,
+.text-gray-700,
+.text-black,
+[class*="text-gray-9"],
+[class*="text-gray-8"],
+[class*="text-gray-7"],
+h1, h2, h3, h4, h5, h6,
+label,
+p,
+div,
+span {
+    color: #e5e7eb !important;
+}
+
+.text-gray-600,
+.text-gray-500 {
+    color: #9ca3af !important;
+}
+
+/* ============================================
+   BOUTONS - Styles ARC Raiders
+   ============================================ */
+
+.bg-blue-500,
+.bg-blue-600,
+.bg-blue-700,
+button[class*="bg-blue"],
+a[class*="bg-blue"] {
+    background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%) !important;
+    border: 1px solid rgba(34, 211, 238, 0.5) !important;
+    box-shadow: 0 4px 12px rgba(34, 211, 238, 0.3) !important;
+    color: #0a0e14 !important;
+    font-weight: 700 !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 6px !important;
+}
+
+.bg-blue-500:hover,
+.bg-blue-600:hover,
+.bg-blue-700:hover {
+    box-shadow: 0 8px 24px rgba(34, 211, 238, 0.5) !important;
+    transform: translateY(-2px) !important;
+}
+
+.bg-green-500,
+.bg-green-600,
+.bg-green-700,
+button[class*="bg-green"],
+a[class*="bg-green"] {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border: 1px solid rgba(16, 185, 129, 0.5) !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+    color: #0a0e14 !important;
+    font-weight: 700 !important;
+}
+
+.bg-green-500:hover,
+.bg-green-600:hover,
+.bg-green-700:hover {
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.5) !important;
+    transform: translateY(-2px) !important;
+}
+
+.bg-red-500,
+.bg-red-600,
+.bg-red-700,
+button[class*="bg-red"],
+a[class*="bg-red"] {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+    border: 1px solid rgba(249, 115, 22, 0.5) !important;
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3) !important;
+    color: #0a0e14 !important;
+    font-weight: 700 !important;
+}
+
+.bg-red-500:hover,
+.bg-red-600:hover,
+.bg-red-700:hover {
+    box-shadow: 0 8px 24px rgba(249, 115, 22, 0.5) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Boutons sans classe bg spécifique */
+button,
+a.font-bold {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+button:hover,
+a.font-bold:hover {
+    transform: translateY(-2px) !important;
+}
+
+/* ============================================
+   INPUTS & FORMS
+   ============================================ */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+    background: rgba(17, 24, 39, 0.6) !important;
+    border: 1px solid rgba(55, 65, 81, 0.3) !important;
+    color: #e5e7eb !important;
+    padding: 0.625rem !important;
+    border-radius: 6px !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #22d3ee !important;
+    box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.1) !important;
+    background: rgba(17, 24, 39, 0.8) !important;
+    outline: none !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6b7280 !important;
+}
+
+/* ============================================
+   BORDERS
+   ============================================ */
+
+.border-gray-200,
+.border-gray-100,
+.border-gray-300 {
+    border-color: rgba(55, 65, 81, 0.3) !important;
+}
+
+.border-l-4.border-green-500 {
+    border-color: #10b981 !important;
+}
+
+.border-l-4.border-blue-500 {
+    border-color: #22d3ee !important;
+}
+
+.border-l-4.border-gray-300 {
+    border-color: rgba(55, 65, 81, 0.5) !important;
+}
+
+/* ============================================
+   CARDS & HOVER
+   ============================================ */
+
+.shadow-sm,
+.shadow,
+.shadow-md {
+    box-shadow: 0 4px 12px rgba(34, 211, 238, 0.1) !important;
+}
+
+a.block:hover,
+.hover\:bg-gray-50:hover,
+.hover\:bg-gray-100:hover {
+    background: rgba(34, 211, 238, 0.05) !important;
+    border-color: rgba(34, 211, 238, 0.3) !important;
+    box-shadow: 0 8px 24px rgba(34, 211, 238, 0.2) !important;
+    transform: translateY(-4px) !important;
+}
+
+/* ============================================
+   ALERTS
+   ============================================ */
+
+.bg-green-100 {
+    background: rgba(16, 185, 129, 0.1) !important;
+    border-left: 4px solid #10b981 !important;
+}
+
+.text-green-700,
+.text-green-800 {
+    color: #34d399 !important;
+}
+
+.border-green-400 {
+    border-color: #10b981 !important;
+}
+
+.bg-red-100 {
+    background: rgba(249, 115, 22, 0.1) !important;
+    border-left: 4px solid #f97316 !important;
+}
+
+.text-red-700,
+.text-red-800 {
+    color: #fb923c !important;
+}
+
+.bg-yellow-100 {
+    background: rgba(251, 191, 36, 0.1) !important;
+}
+
+.text-yellow-800 {
+    color: #fbbf24 !important;
+}
+
+/* ============================================
+   BADGES & PILLS
+   ============================================ */
+
+.rounded-full {
+    transition: all 0.3s ease !important;
+}
+
+.rounded-full:hover {
+    transform: scale(1.05) !important;
+}
+
+.text-blue-600,
+.text-blue-700 {
+    color: #22d3ee !important;
+}
+
+.text-green-600 {
+    color: #10b981 !important;
+}
+
+.text-purple-600 {
+    color: #a855f7 !important;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+nav {
+    background: linear-gradient(135deg, rgba(15, 20, 25, 0.95) 0%, rgba(26, 35, 50, 0.95) 100%) !important;
+    border-bottom: 1px solid rgba(34, 211, 238, 0.2) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+header {
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.7) 0%, rgba(17, 24, 39, 0.85) 100%) !important;
+    border-bottom: 1px solid rgba(34, 211, 238, 0.2) !important;
+}
+
+/* ============================================
+   MODALS & DIALOGS
+   ============================================ */
+
+[role="dialog"],
+[x-data*="modal"],
+.modal,
+.dialog,
+[class*="modal"],
+[class*="dialog"] {
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.95) 0%, rgba(17, 24, 39, 0.98) 100%) !important;
+    border: 1px solid rgba(34, 211, 238, 0.3) !important;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(17, 24, 39, 0.5) !important;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.5) 0%, rgba(6, 182, 212, 0.5) 100%) !important;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.8) 0%, rgba(6, 182, 212, 0.8) 100%) !important;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.py-12 > div,
+.p-6,
+.grid > * {
+    animation: fadeIn 0.5s ease !important;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a:hover {
+    color: #22d3ee !important;
+}
